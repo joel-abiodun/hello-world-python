@@ -68,10 +68,7 @@ python hello_world.py
 ---
 
 ## GitHub Repository Link
-(Add your GitHub repository link here)
-
-Example:
-https://github.com/your-username/hello-world-python
+https://github.com/joel-abiodun/hello-world-python
 
 ---
 

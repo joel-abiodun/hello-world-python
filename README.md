@@ -1,15 +1,15 @@
 # Hello World Program (Python)
 
 ## Student Information
-- Name: Joel Abiodun
-- Matric Number: 25/18070
-- Department: Computer Science
-- Institution: Caleb University
+- **Name:** Joel Abiodun
+- **Matric Number:** 25/18070
+- **Department:** Computer Science
+- **Institution:** Caleb University
 
 ---
 
 ## Assignment Description
-This assignment introduces basic Python programming, GitHub usage, and proper documentation using a README file. The task is to create a Hello World program in Python and explain every part of it within this README.
+This assignment introduces students to basic Python programming, GitHub usage, and proper documentation using a README file. The task is to create a Hello World program in Python and explain every part of it within this README file.
 
 ---
 
@@ -26,57 +26,55 @@ def main():
 
 if __name__ == "__main__":
     main()
-Explanation of the Code
-Comment Section
-python
-Copy code
-# Hello World Program
-# Author: Joel Abiodun
-# Matric Number: 25/18070
-These lines are comments.
+```
+---
 
-They provide information about the program and the author.
+## Explanation of the Code
 
-Comments are ignored during execution.
+### 1. Comment Section
+- Lines starting with `#` are comments.
+- They provide information about the program and the author.
+- Comments are ignored by Python during execution.
 
-The main() Function
-python
-Copy code
-def main():
-    print("Hello, World!")
-Defines a function named main.
+### 2. The `main()` Function
+- `def main():` defines a function named `main`.
+- The `print()` statement displays "Hello, World!" on the screen.
+- Using a function makes the program structured, readable, and maintainable.
 
-The print() statement displays "Hello, World!" on the screen.
+### 3. Program Execution Control
+- `if __name__ == "__main__":` ensures the `main()` function runs only when the file is executed directly.
+- It prevents the code from running when the file is imported into another Python program.
+- This is considered good programming practice.
 
-Using a function makes the program structured, readable, and maintainable.
+---
 
-Program Execution Control
-python
-Copy code
-if __name__ == "__main__":
-    main()
-Ensures the main() function runs only when the file is executed directly.
-
-Prevents execution if the file is imported into another Python program.
-
-Demonstrates good programming practice.
-
-Output of the Program
-text
-Copy code
+## Output of the Program
+```text
 Hello, World!
-How to Run the Program
-text
-Copy code
+```
+
+---
+
+## How to Run the Program
 1. Install Python on your computer.
 2. Open a terminal or command prompt.
 3. Navigate to the folder containing this README file.
 4. Copy the program code into a Python IDE or text editor.
 5. Run the program using:
-   python hello_world.py
-GitHub Repository Link
-text
-Copy code
+```text
+python hello_world.py
+```
+
+---
+
+## GitHub Repository Link
 (Add your GitHub repository link here)
+
 Example:
 https://github.com/your-username/hello-world-python
+
+---
+
+## Conclusion
+This project demonstrates a basic Python program with proper structure and documentation.  
+All explanations, instructions, and outputs are clearly documented in this single README file.

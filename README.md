@@ -1,28 +1,19 @@
 # Hello World Program (Python)
 
 ## Student Information
-- **Name:** Joel Abiodun  
-- **Matric Number:** 25/18070  
-- **Department:** Computer Science  
-- **Institution:** Caleb University  
+- Name: Joel Abiodun
+- Matric Number: 25/18070
+- Department: Computer Science
+- Institution: Caleb University
 
 ---
 
 ## Assignment Description
-This assignment introduces students to:
-
-- Basic Python programming  
-- Writing and running a simple program  
-- Proper documentation using a README file  
-- Using GitHub for version control  
-
-The task is to create a **Hello World program in Python** and explain everything about it in this README file.
+This assignment introduces basic Python programming, GitHub usage, and proper documentation using a README file. The task is to create a Hello World program in Python and explain every part of it within this README.
 
 ---
 
 ## Program Code
-The Python program that prints "Hello, World!" is as follows:
-
 ```python
 # Hello World Program
 # Author: Joel Abiodun
@@ -35,44 +26,20 @@ def main():
 
 if __name__ == "__main__":
     main()
-
 Explanation of the Code
-1. Comment Section
+Comment Section
+python
+Copy code
 # Hello World Program
 # Author: Joel Abiodun
 # Matric Number: 25/18070
+These lines are comments.
 
-
-These lines are comments. They provide information about the program and the author.
-Comments are ignored by Python during execution.
-
-2. The main() Function
-def main():
-    print("Hello, World!")
-
-
-Defines a function named main.
-
-The print() function outputs the message "Hello, World!" to the screen.
-
-Using a function makes the program structured, readable, and maintainable.
-
-3. Program Execution Control
-if __name__ == "__main__":
-    main()
-
-# Explanation of the Code
-
-## 1. Comment Section
-```python
-# Hello World Program
-# Author: Joel Abiodun
-# Matric Number: 25/18070
-These lines are comments that provide information about the program and the author.
+They provide information about the program and the author.
 
 Comments are ignored during execution.
 
-2. The main() Function
+The main() Function
 python
 Copy code
 def main():
@@ -83,7 +50,7 @@ The print() statement displays "Hello, World!" on the screen.
 
 Using a function makes the program structured, readable, and maintainable.
 
-3. Program Execution Control
+Program Execution Control
 python
 Copy code
 if __name__ == "__main__":

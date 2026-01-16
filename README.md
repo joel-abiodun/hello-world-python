@@ -7,7 +7,6 @@
 - **Institution:** Caleb University
 
 ---
-
 ## Assignment Description
 This assignment introduces students to basic Python programming, GitHub usage, and proper documentation using a README file. The task is to create a Hello World program in Python and explain every part of it within this README file.
 
